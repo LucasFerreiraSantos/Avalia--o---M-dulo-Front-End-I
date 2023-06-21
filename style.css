@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Lexend+Deca&family=Oswald:wght@200&display=swap');
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: Inter, Sans-serif;
+    display: flex;
+    gap: 50px;
 }
 
+/* ESTILIZAÇÃO DO HEADER */
 header {
     width: 300px;
     height: 100vh;
@@ -13,11 +16,11 @@ header {
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    background-color: antiquewhite;
+    background-color:chocolate;
     border: 2px solid black;
 }
 
-img {
+.perfilLog {
     width: 200px;
     border-radius: 50%;
     border: 3px solid black;
@@ -41,4 +44,44 @@ a {
 a:hover {
     font-size: 20px;
     transition: 0.4s;
+}
+
+/* ESTILIZAÇÃO DA MAIN ABA SOBRE*/
+main {
+    border: 1px solid black;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+strong {
+    font-size: 50px;
+}
+
+span {
+    color: chocolate;
+    font-size: 50px;
+}
+
+.enderecoEmail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.email {
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+.redesSociais {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    width: 60px;
 }
