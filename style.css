@@ -9,7 +9,7 @@ body {
 
 /* ESTILIZAÇÃO DO HEADER */
 header {
-    width: 300px;
+    width: 350px;
     height: 920px;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ header {
     border: 3px solid black;
 }
 .perfilLog:hover {
-    width: 220px;
+    width: 210px;
     transition: 0.4s;
 }
 
@@ -66,7 +66,7 @@ span {
 .enderecoEmail {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     font-size: 18px;
     flex-wrap: wrap;
 }
@@ -96,3 +96,8 @@ p {
 }
 
 /* ESTILIZAÇÃO DA ABA CONHECIMENTOS */
+ol {
+    font-size: 30px;
+}
+
+/* ESTILIZAÇÃO DA ABA OBJETIVOS */
