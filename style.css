@@ -29,7 +29,7 @@ header {
     border: 5px solid coral;
 }
 .perfilLog:hover {
-    width: 210px;
+    width: 195px;
     transition: 0.4s;
 }
 
@@ -40,12 +40,12 @@ nav {
     gap: 20px;
 }
 
-a {
+.navBar {
     text-decoration: none;
     color: white;
 }
-a:hover {
-    font-size: 20px;
+.navBar:hover {
+    font-size: 17px;
     transition: 0.4s;
 }
 
@@ -88,10 +88,11 @@ span {
 }
 
 img {
-    width: 60px;
+    width: 55px;
 }
-img:hover {
-    width: 65px;
+
+.imageRedesSociais:hover {
+    width: 50px;
     transition: 0.4s;
 }
 
